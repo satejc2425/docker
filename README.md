@@ -4,7 +4,8 @@ Docker Repository for practice
 ## Installation Steps
 1. Go to https://docs.docker.com/engine/install/ubuntu/
 2. Copy all commands together from
-   
+
+#   
 1. Set up docker apt rep
 ```
        Add Docker's official GPG key:
