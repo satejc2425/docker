@@ -39,7 +39,7 @@ Docker Repository for practice
 
 # Docker Commands
 
-1.docker version --> checks if docker is working or not
+docker version --> checks if docker is working or not
 
 2.docker images
 3.docker pull nginx:latest --> Downloads an image
