@@ -1,6 +1,7 @@
 # docker
 Docker Repository for practice
-#Installation Steps
+
+## Installation Steps
 ```
 1. Go to https://docs.docker.com/engine/install/ubuntu/
 2. Copy all commands together from
@@ -10,20 +11,20 @@ Docker Repository for practice
 ```
 # Docker Commands
 
-docker version --> checks if docker is working or not
+1.docker version --> checks if docker is working or not
 
-docker images
-docker pull nginx:latest --> Downloads an image
-docker images 
+2.docker images
+3.docker pull nginx:latest --> Downloads an image
+4.docker images 
 
-docker run --name test -d -p 8080:80 nginx:latest --> starts container from image and then go to browser and browse localhost:8080
-docker ps --> shws details about containers
+5.docker run --name test -d -p 8080:80 nginx:latest --> starts container from image and then go to browser and browse localhost:8080
+6.docker ps --> shws details about all running containers
 
-docker exec -it test /bin/bash --> Execute a command inside a container
-ls 
-exit
+7.docker exec -it test /bin/bash --> Execute a command inside a container
+8.ls 
+9.exit
 
-docker ps
-docker stop test
-docker rm test --> Delete container
-docker ps -a
+10.docker ps
+11.docker stop test
+12.docker rm test --> Delete container
+13.docker ps -a
