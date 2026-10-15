@@ -4,7 +4,8 @@ Docker Repository for practice
 ## Installation Steps
 1. Go to https://docs.docker.com/engine/install/ubuntu/
 2. Copy all commands together from
-    1. Set up docker apt rep
+   
+1. Set up docker apt rep
 ```
        Add Docker's official GPG key:
        sudo apt update
@@ -26,15 +27,16 @@ Docker Repository for practice
        sudo apt update
 ```
    
-3. Install docker
-           ```
-               sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-           ```
-4. Start service
-           ```
-               sudo systemctl status docker
-               sudo systemctl start docker
-           ```
+2. Install docker
+```
+    sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+```
+3. Start service
+```
+    sudo systemctl status docker
+    sudo systemctl start docker
+```
+
 # Docker Commands
 
 1.docker version --> checks if docker is working or not
